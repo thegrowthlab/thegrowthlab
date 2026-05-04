@@ -3,58 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <title>The Growth Lab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f172a, #020617);
+      color: #e2e8f0;
     }
 
     header {
-      padding: 30px;
       text-align: center;
-      background: #111827;
+      padding: 60px 20px;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 40px;
+      font-size: 48px;
+      margin-bottom: 10px;
       color: #38bdf8;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.8;
     }
 
     nav {
       display: flex;
       justify-content: center;
-      gap: 20px;
-      background: #1f2937;
-      padding: 10px;
+      gap: 25px;
+      padding: 15px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
     }
 
     nav a {
-      color: white;
+      color: #e2e8f0;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
     }
 
     section {
-      padding: 40px;
       max-width: 900px;
       margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #38bdf8;
     }
 
     .card {
-      background: #1e293b;
-      padding: 20px;
-      margin-top: 20px;
-      border-radius: 10px;
+      background: rgba(255,255,255,0.05);
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background: #111827;
-      margin-top: 40px;
+      opacity: 0.6;
     }
   </style>
 </head>
@@ -63,7 +85,7 @@
 
 <header>
   <h1>The Growth Lab</h1>
-  <p>A journey of learning, psychology, and self-growth</p>
+  <p>Grow with me. Learn with me. Become better together.</p>
 </header>
 
 <nav>
@@ -77,37 +99,40 @@
 <section id="home">
   <h2>Welcome</h2>
   <div class="card">
-    This is not a perfect place.  
-    It is a real growth journey.  
-    We learn, improve, and grow together step by step.
+    This is not a place of perfection.  
+    This is a place of growth.  
+
+    I am building myself step by step, and you are invited to grow with me.
   </div>
 </section>
 
 <section id="journey">
   <h2>My Journey</h2>
   <div class="card">
-    Here I will share my real progress, thoughts, struggles, and improvements in life.
+    Here I will share my real experiences, thoughts, failures, and improvements.  
+    This is where growth becomes real.
   </div>
 </section>
 
 <section id="lessons">
-  <h2>Inner Growth Lessons</h2>
+  <h2>Lessons</h2>
   <div class="card">
-    Topics: Confidence, Discipline, Habits, Mindset, Psychology of life.
+    Topics include: Confidence, Discipline, Habits, Mindset, and Psychology of life.
   </div>
 </section>
 
 <section id="courses">
   <h2>Courses</h2>
   <div class="card">
-    Advanced courses will be added later (free + paid system in future).
+    Structured courses will be added here soon.  
+    Free first, advanced later.
   </div>
 </section>
 
 <section id="about">
   <h2>About</h2>
   <div class="card">
-    The Growth Lab is a personal development platform focused on real-life growth and psychology learning.
+    The Growth Lab is a personal journey platform focused on real-life improvement and psychology learning.
   </div>
 </section>
 
